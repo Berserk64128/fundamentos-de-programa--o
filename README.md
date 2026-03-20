@@ -1,0 +1,23 @@
+# ANOTAÇÕES DE FUNDAMENTOS DA PROGRAMAÇÃO 
+
+## Tipos de dados em python
+1. string
+2. number int
+3. number float
+4. boolean
+
+## Operadores matemáticos - básicos
++ -> adição
+- -> subtração
+* -> multiplicação
+/ -> divisão
+
+## Métodos em python
+1. print() -> Exibe informações no terminal.
+
+## Format em python
+
+# Estrutura de repetição
+``if (se)`` -> verifica se uma condição é true(verdadeira). Se for, ele executa o código.
+``elif (senão se)`` -> é usado para testar várias condições. Ele só executa se todas as condições anteriores forem falses.
+``else (senão)`` -> Executa o código se a condição if for false(falsa).
