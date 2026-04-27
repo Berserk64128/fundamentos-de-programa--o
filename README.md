@@ -23,14 +23,48 @@ not -> Ele altera o valor booleano da condição.
 
 ## Format em python
 
-# Estrutura de repetição
+# Estrutura condicional
 ``if (se)`` -> verifica se uma condição é true(verdadeira). Se for, ele executa o código.
 ``elif (senão se)`` -> é usado para testar várias condições. Ele só executa se todas as condições anteriores forem falses.
 ``else (senão)`` -> Executa o código se a condição if for false(falsa).
 
+<<<<<<< HEAD
+=======
+# Laços de repetição
+É um recurso de programação que permite executar um conjunto de comando várias vezes. Também são chamados de Loop; Laços de repetição ou interação.
+``FOR`` -> Utilizamos quando sabemos quantas vezes queremos repetir algo;
+Sintax:
+for variavel in range(inicio,fim):
+    comandos
+[ranger()] -> Método que aceita geração de número.
+[inicio] -> é inclusivo. É o primeiro número a ser usado.
+[fim] -> É exclusivo. O número utilizado é o anterior a esse.
+## Escopo das Variáveis
+`Escopo local` -> A variável  ela só  é acessada dentro da estrutura que ela foi criada.
+`Escopo Global` -> A veriável pode ser acessada por todo mundo.
+
+## Variações das variáveis
+Variável em memória -> É declarada quando você não pretende utilizar essa variável em outros cenários.
+Variável contadora -> É utilizada para uma lógica onde a repetição orá ser alterada.
+
+## Conversão de tipos de python
+1. int() -> A gente vai iniciar qual variável/dado que queremos converter para número inteiro.
+2. float() -> A gente vai iniciar qual variável/dado que queremos converter para número decimal.
+3. str() -> A gente vai iniciar qual variável/dado que queremos converter para texto.
+
+>>>>>>> f46ef55b99b85ef64f45f066cc4272d46c3d33e2
 ## Boas Práticas
 1. Qualquer variável em python utiliza o padrão de case
 snake_case ou recentemente o camelCase.
 2. Se você observar alguma estrutura tipo nome(), 90% de chance de ser uma função.
 3. Python não tem constante, porém utilizamos o padrão case 
+<<<<<<< HEAD
 UPPERCASE, para simular que aquela variável não pode ser alterada.
+=======
+UPPERCASE, para simular que aquela variável não pode ser alterada.
+
+`WHILE` -> É utilizado quando não sabemos quantas vezes o programa vai repetir. Ele repete enquanto uma condição for verdadeira.
+Sintaxe:
+while condicao:
+    comandos
+>>>>>>> f46ef55b99b85ef64f45f066cc4272d46c3d33e2
