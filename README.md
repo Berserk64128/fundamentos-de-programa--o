@@ -71,3 +71,9 @@ Sintaxe:
 while condicao:
     comandos
 >>>>>>> f46ef55b99b85ef64f45f066cc4272d46c3d33e2
+
+
+# Funções em Python
+'def' -> Define que uma função será declarada;
+'propriedade' -> Variável em memória que irá receber um argumento.
+'argumento' - > [valor] que irá ´reencher o espaço da propriedade.
