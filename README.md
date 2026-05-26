@@ -74,6 +74,17 @@ while condicao:
 
 
 # Funções em Python
-'def' -> Define que uma função será declarada;
-'propriedade' -> Variável em memória que irá receber um argumento.
-'argumento' - > [valor] que irá ´reencher o espaço da propriedade.
+`def` -> Define que uma função será declarada;
+`propriedade` -> Variável em memória que irá receber um argumento.
+`argumento` - > [valor] que irá ´reencher o espaço da propriedade.
+
+## Estruturas de Dados
+`list ou lista` -> Armazera valores avulsos e podem ser heterogênea ou homogênea. Ou seja, pode guardar valores de um mesmo tipo ou diferentes tipos.
+Ex: list = [] // Lista vazia
+list = ["William", 25, 1.82]
+
+`dict ou dicionário` -> Armazena conjuntos de valores (chave:valor). As chaves e valores podem ser heterogênea ou homogênena.
+1. Para obter o valor de um conjunto em dict, você acessa pela chave.
+Ex: dados_usuario = {} // Dicionário Vazio
+dados_usuario = {"nome": "William, "cpf": 111456985-98, "idade": 25}
+dados_usuario["nome"] => Devolve o valor, que é "William".
